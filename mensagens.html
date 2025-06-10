@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensagens</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hearts {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: -1;
+    }
+    .heart {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      background: red;
+      transform: rotate(45deg);
+      animation: float 6s linear infinite;
+    }
+    .heart:before,
+    .heart:after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      background: red;
+      border-radius: 50%;
+    }
+    .heart:before { top: -10px; left: 0; }
+    .heart:after { left: -10px; top: 0; }
+    @keyframes float {
+      0% { transform: translateY(0) rotate(45deg); opacity: 1; }
+      100% { transform: translateY(-100vh) rotate(45deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Para você sempre lembrar de nós</h1>
+  <div class="mensagens">
+    <p>Você foi a melhor pessoa que eu encontrei.</p>
+    <p>Você me mudou.</p>
+    <p>Eu nunca vou te esquecer.</p>
+    <p>Nunca vou ser feliz sem você.</p>
+    <p>Seu sorriso ilumina meus dias.</p>
+    <p>Meu coração é seu, hoje e sempre.</p>
+    <p>Você me faz querer ser melhor todos os dias.</p>
+  </div>
+  <a class="btn" href="foto.html">Ver nossa foto</a>
+  <div class="hearts">
+    <!-- 30 corações -->
+    <div class="heart" style="left:0.0%; animation-delay:0.0s;"></div>
+<div class="heart" style="left:3.3%; animation-delay:0.5s;"></div>
+<div class="heart" style="left:6.6%; animation-delay:1.0s;"></div>
+<div class="heart" style="left:9.899999999999999%; animation-delay:1.5s;"></div>
+<div class="heart" style="left:13.2%; animation-delay:2.0s;"></div>
+<div class="heart" style="left:16.5%; animation-delay:2.5s;"></div>
+<div class="heart" style="left:19.799999999999997%; animation-delay:0.0s;"></div>
+<div class="heart" style="left:23.099999999999998%; animation-delay:0.5s;"></div>
+<div class="heart" style="left:26.4%; animation-delay:1.0s;"></div>
+<div class="heart" style="left:29.7%; animation-delay:1.5s;"></div>
+<div class="heart" style="left:33.0%; animation-delay:2.0s;"></div>
+<div class="heart" style="left:36.3%; animation-delay:2.5s;"></div>
+<div class="heart" style="left:39.599999999999994%; animation-delay:0.0s;"></div>
+<div class="heart" style="left:42.9%; animation-delay:0.5s;"></div>
+<div class="heart" style="left:46.199999999999996%; animation-delay:1.0s;"></div>
+<div class="heart" style="left:49.5%; animation-delay:1.5s;"></div>
+<div class="heart" style="left:52.8%; animation-delay:2.0s;"></div>
+<div class="heart" style="left:56.099999999999994%; animation-delay:2.5s;"></div>
+<div class="heart" style="left:59.4%; animation-delay:0.0s;"></div>
+<div class="heart" style="left:62.699999999999996%; animation-delay:0.5s;"></div>
+<div class="heart" style="left:66.0%; animation-delay:1.0s;"></div>
+<div class="heart" style="left:69.3%; animation-delay:1.5s;"></div>
+<div class="heart" style="left:72.6%; animation-delay:2.0s;"></div>
+<div class="heart" style="left:75.89999999999999%; animation-delay:2.5s;"></div>
+<div class="heart" style="left:79.19999999999999%; animation-delay:0.0s;"></div>
+<div class="heart" style="left:82.5%; animation-delay:0.5s;"></div>
+<div class="heart" style="left:85.8%; animation-delay:1.0s;"></div>
+<div class="heart" style="left:89.1%; animation-delay:1.5s;"></div>
+<div class="heart" style="left:92.39999999999999%; animation-delay:2.0s;"></div>
+<div class="heart" style="left:95.69999999999999%; animation-delay:2.5s;"></div>
+  </div>
+</body>
+</html>

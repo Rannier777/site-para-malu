@@ -1,0 +1,51 @@
+body {
+  background-color: #fff0f5;
+  font-family: 'Courier New', Courier, monospace;
+  color: #800000;
+  text-align: center;
+  padding: 30px;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-top: 0;
+}
+.mensagens {
+  margin: 40px auto;
+  max-width: 600px;
+  background-color: #fffafa;
+  border: 2px dashed #dc143c;
+  padding: 20px;
+  border-radius: 20px;
+}
+.mensagens p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.btn:hover {
+  background-color: #ff1493;
+}
+img {
+  max-width: 90%;
+  height: auto;
+  border: 5px solid #dc143c;
+  border-radius: 20px;
+}
