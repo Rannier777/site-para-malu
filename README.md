@@ -1,0 +1,1 @@
+git init && git branch -m main && git remote add origin https://github.com/Rannier777/romantic-site.git && git add . && git commit -m "Subindo site romântico com amor e nossa foto" && git push -u origin main
